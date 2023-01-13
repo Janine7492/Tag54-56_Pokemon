@@ -1,0 +1,161 @@
+.typeWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.typeBubble p {
+    border-radius: 10px;
+    padding: 10px;
+    width: 45%;
+    border: 2px solid black;
+    margin: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.typeBubble a {
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+.bug {
+    background-color: #3BB900;
+    width: 100%;
+    padding: 0;
+
+}
+
+.dark {
+    background-color: #1C1C1C;
+    ;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0;
+}
+
+.dragon {
+    background-color: #00458A;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0;
+}
+
+.electric {
+    background-color: #FFE600;
+    width: 100%;
+    padding: 0;
+    color: black;
+}
+
+.fairy {
+    background-color: #FFC2F9;
+    width: 100%;
+    padding: 0;
+}
+
+.fighting {
+    background-color: #E40000;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0;
+}
+
+.fire {
+    background-color: #FF9900;
+    width: 100%;
+    padding: 0;
+}
+
+.flying {
+    background-color: #CCDADD;
+    width: 100%;
+    padding: 0;
+}
+
+.ghost {
+    background-color: #5A1E64;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0;
+}
+
+.grass {
+    background-color: #57921C;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0;
+}
+
+.ground {
+    background-color: #965A00;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0;
+}
+
+.ice {
+    background-color: #6AD2FF;
+    width: 100%;
+    padding: 0;
+}
+
+.normal {
+    background-color: #B3B3B3;
+    width: 100%;
+    padding: 0;
+}
+
+.plant {
+    background-color: #70DF00;
+    width: 100%;
+    padding: 0;
+}
+
+.poison {
+    background-color: #AB00AE;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0;
+}
+
+.psychic {
+    background-color: #FF81F2;
+    width: 100%;
+    padding: 0;
+}
+
+.rock {
+    background-color: #E1B237;
+    width: 100%;
+    padding: 0;
+}
+
+.steel {
+    background-color: #2A4950;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0;
+}
+
+.water {
+    background-color: #00A0E4;
+    width: 100%;
+    padding: 0;
+}
+
+.unknown {
+    background-color: #576a72;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0;
+}
+
+.shadow {
+    background-color: dimgray;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0;
+}

@@ -1,0 +1,223 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("./fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("./fonts/Roboto-Bold.ttf");
+}
+
+.logo {
+  padding: 2rem;
+}
+
+.modeButton {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+
+.bgcLight {
+  background-color: #c4eafa;
+  text-align: center;
+  font-family: Roboto-Regular;
+  min-height: 100vh;
+}
+
+.bgcDark {
+  background-color: #131418;
+  text-align: center;
+  color: white;
+  font-family: Roboto-Regular;
+  min-height: 100vh;
+}
+
+
+.pokeWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pokedexWrapper {
+
+  margin-top: 4rem;
+
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 3rem auto;
+}
+
+.topSection input {
+  margin-left: 2rem;
+  border: 3px solid #395AA4;
+  border-radius: 10px;
+  padding: 0 1rem;
+  background: linear-gradient(60deg, rgb(241, 239, 216) 0%, rgb(249, 200, 3) 100%);
+  font-weight: bold;
+  color: #395AA4;
+}
+
+.topSection img {
+  background-color: #395AA4;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.imgBox {
+  margin: 15px auto;
+  width: 60%;
+
+}
+
+.imgBox div img {
+  width: 100%;
+  margin-top: -4rem;
+}
+
+.bkgYellow div a div {
+  background: linear-gradient(60deg, rgb(241, 239, 216) 0%, rgb(249, 200, 3) 100%);
+  ;
+  border-radius: 25px;
+  margin: 5rem auto;
+  max-width: 200px;
+}
+
+.bkgDark div a div {
+  background: linear-gradient(60deg, #7C97B2 0%, #071A2C 100%);
+  ;
+  border-radius: 25px;
+  margin: 5rem auto;
+  max-width: 200px;
+}
+
+.pokeData {
+  height: 50px;
+  background-color: white;
+  border-radius: 0 0 25px 25px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.pokeData p {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  text-align: center;
+
+}
+
+.pokeNumber {
+  margin: auto 0;
+  padding: 0;
+}
+
+.pokeName {
+  margin: auto 0;
+  padding: 0;
+}
+
+
+
+.attackSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.attackButton {
+  width: 45%;
+  background-color: transparent;
+  border: none;
+  margin: 2rem auto;
+  font-size: 2rem;
+  font-family: Roboto-Bold;
+  color: #FFCB07;
+  -webkit-text-stroke: 2px #2C72B8;
+}
+
+
+
+.Link {
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.pokeDetailStyle {
+  background-color: transparent;
+  justify-content: center;
+}
+
+.pokeDetailStyle p {
+  color: #FFCB07;
+  -webkit-text-stroke: 3px #395AA4;
+  font-family: Roboto-Bold;
+  font-weight: bolder;
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+.pokeDetailImg {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.pokeDetailImg img {
+  width: 50%;
+}
+
+.returnArrow {
+  position: absolute;
+  left: 3rem;
+  top: 3rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #395AA4;
+  border-radius: 50%;
+}
+
+.returnArrow img {
+  width: 10px;
+  height: 10px;
+}
+
+.typeFilterSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 576px) {
+  .pokeWrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .pokeWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .pokeWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    margin: 0 auto;
+  }
+}
